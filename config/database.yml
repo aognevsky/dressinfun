@@ -2,10 +2,10 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: dressinfun_com
+  database: dressinfun.com
   pool: 5
-  username: root
-  password:
+  username: dressinfun.com
+  password: a29y6j78
   socket: /tmp/mysql.sock
 
 test:
@@ -22,8 +22,8 @@ production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: dressinfun_com_production
+  database: dressinfun.com
   pool: 5
-  username: root
-  password: 
+  username: dressinfun.com
+  password: a29y6j78
   socket: /tmp/mysql.sock
